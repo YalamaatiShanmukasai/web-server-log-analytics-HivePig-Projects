@@ -148,60 +148,200 @@ The project execution evidence demonstrates:
 
 ## Project Screenshots
 
-The repository contains the uploaded execution screenshots. Each image is described by the project activity it represents.
+The following screenshots are grouped and captioned according to what each project execution screen demonstrates. They are the visual evidence for the Hadoop, HDFS, Pig, Hive, partitioning, bucketing, and final-analysis stages described in this project.
 
-### Hadoop Environment Setup
-Starting Hadoop services and verifying running daemons.
+### 1. Hadoop Environment Setup
 
-### HDFS Dataset Handling
-Creating the input area and handling the log dataset in HDFS.
+Starting Hadoop services with `start-all.sh` and verifying HDFS/YARN daemons with `jps`.
 
-### Pig Dataset Loading
-Loading the web log data into Pig and defining the input schema.
+![Hadoop Environment Setup](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(1).jpeg)
 
-### Pig Job Execution
-Executing Pig processing with Hadoop/MapReduce.
+### 2. HDFS Input Directory and Dataset Upload
 
-### Pig URL Frequency Analysis
-Grouping requests by URL and calculating access frequency.
+Creating the HDFS input directory and uploading the web server log dataset.
 
-### Pig HTTP Method Analysis
-Grouping and counting requests by HTTP method.
+![HDFS Input Directory and Dataset Upload](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(2).jpeg)
 
-### 400 Client Error Analysis
-Filtering client-side error records associated with HTTP 400 responses.
+### 3. Pig Environment and Dataset Loading
 
-### 500 Server Error Analysis
-Filtering server-side error records associated with HTTP 500 responses.
+Loading the web server log data into Pig and defining the input schema.
 
-### Hive External Table Creation
+![Pig Environment and Dataset Loading](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM.jpeg)
+
+### 4. Pig Job Execution
+
+Executing the Pig script and showing Hadoop/MapReduce job processing.
+
+![Pig Job Execution](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.09.55%20PM%20(1).jpeg)
+
+### 5. Pig Total Record Count
+
+Displaying the total number of records processed by Pig.
+
+![Pig Total Record Count](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.09.55%20PM.jpeg)
+
+### 6. Pig URL Frequency Analysis
+
+Grouping requests by URL and calculating URL access frequency.
+
+![Pig URL Frequency Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.09.59%20PM%20(1).jpeg)
+
+### 7. Pig Top URL Results
+
+Displaying the most frequently requested URLs.
+
+![Pig Top URL Results](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.09.59%20PM.jpeg)
+
+### 8. Pig HTTP Method Analysis
+
+Grouping log records by HTTP method and counting requests.
+
+![Pig HTTP Method Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(1).jpeg)
+
+### 9. Pig Client Error Analysis
+
+Filtering and displaying client-side HTTP errors such as 404 responses.
+
+![Pig  Client Error Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(2).jpeg)
+
+### 10. Pig Server Error Analysis
+
+Filtering and displaying server-side HTTP errors such as 500 responses.
+
+![Pig  Server Error Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(3).jpeg)
+
+### 11. Pig Error Summary
+
+Reviewing the error-analysis output from the processed logs.
+
+![Pig Error Summary](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM.jpeg)
+
+### 12. Hive Environment Setup
+
+Starting Hive and preparing the web log analysis environment.
+
+![Hive Environment Setup](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(1).jpeg)
+
+### 13. Hive External Table Creation
+
 Creating the external Hive table for the web server log dataset.
 
-### Hive Table Data Verification
-Viewing records from the Hive table.
+![Hive External Table Creation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(2).jpeg)
 
-### Hive URL Request Count
-Calculating URL request counts using HiveQL.
+### 14. Hive Table Data Verification
 
-### Hive HTTP Status Analysis
-Counting and analyzing HTTP response status codes.
+Querying the Hive table and viewing stored log records.
 
-### Hive HTTP Method Analysis
-Analyzing request methods using HiveQL.
+![Hive Table Data Verification](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(3).jpeg)
 
-### Hive Error Analysis
-Identifying and analyzing HTTP error responses.
+### 15. Hive URL Request Count
 
-### Partitioning and Bucketing
-Demonstrating Hive data-organization and optimization concepts.
+Grouping records by URL and calculating request counts.
+
+![Hive URL Request Count](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM.jpeg)
+
+### 16. Hive HTTP Status Analysis
+
+Grouping records by HTTP status code to identify successful and error responses.
+
+![Hive HTTP Status Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM%20(1).jpeg)
+
+### 17. Hive HTTP Method Analysis
+
+Analyzing GET, POST and other HTTP methods using HiveQL.
+
+![Hive HTTP Method Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM%20(2).jpeg)
+
+### 18. Hive Error Analysis
+
+Identifying 404 and 500 error records through Hive queries.
+
+![Hive Error Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM%20(3).jpeg)
+
+### 19. Hive Response-Time Analysis
+
+Analyzing response-time information from the web server logs.
+
+![Hive Response-Time Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM.jpeg)
+
+### 20. Hive Final Query Results
+
+Displaying consolidated Hive query results for the log dataset.
+
+![Hive Final Query Results](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM%20(1).jpeg)
+
+### 21. Hive External Table Execution
+
+Showing successful execution of the Hive external-table/query workflow.
+
+![Hive External Table Execution](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM%20(2).jpeg)
+
+### 22. Partitioning Optimization
+
+Creating or demonstrating Hive partitioning by HTTP status.
+
+![Partitioning Optimization](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM%20(3).jpeg)
+
+### 23. Partitioned Data Analysis
+
+Querying the partitioned Hive data for efficient analysis.
+
+![Partitioned Data Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM.jpeg)
+
+### 24. Bucketing Optimization
+
+Creating or demonstrating Hive bucketing using the client IP field.
+
+![Bucketing Optimization](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.04%20PM%20(1).jpeg)
+
+### 25. Bucketed Data Query
+
+Querying bucketed data to demonstrate optimized organization of records.
+
+![Bucketed Data Query](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.04%20PM%20(2).jpeg)
+
+### 26. Final Analytics Output
+
+Showing final web log analytics results and key findings.
+
+![Final Analytics Output](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.04%20PM.jpeg)
+
+### 27. Project Execution Evidence
+
+Additional terminal evidence from the completed Hadoop, Pig and Hive workflow.
+
+![Project Execution Evidence](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.05%20PM.jpeg)
+
+### 28. Complete Project Workflow
+
+Final execution evidence covering data processing, analysis and results.
+
+![Complete Project Workflow](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-hive-pig/main/WhatsApp%20Image%202026-10-04%20at%208.10.06%20PM.jpeg)
+## Project Files
+
+```text
+web-server-log-analytics-hive-pig/
+|
+├── web_logs.csv
+├── web_logs.pig
+├── web_logs.hql
+└── README.md
+```
+
+| File | Description |
+|---|---|
+| [`web_logs.csv`](./web_logs.csv) | Web server log dataset |
+| `web_logs.pig` | Pig Latin processing and analysis script |
+| `web_logs.hql` | HiveQL analysis queries |
+| `README.md` | Project documentation |
 
 ## Source Files
 
 | File | Description |
 |---|---|
 | `web_logs.csv` | Web server log dataset |
-| `web_logs.pig` | Pig Latin processing script |
-| `web_logs.hql` | HiveQL analysis script |
+| [`web_logs.pig`](./web_logs.pig) | Pig Latin processing script |
+| [`web_logs.hql`](./web_logs.hql) | HiveQL analysis script |
 | `README.md` | Project documentation |
 | `attachments (1).zip` | Project attachment archive |
 
@@ -219,3 +359,12 @@ This project demonstrates web server log analytics using Hadoop, HDFS, Pig, and 
 ## Repository
 
 https://github.com/YalamaatiShanmukasai/web-server-log-analytics-project
+
+### Project Files
+
+- [web_logs.csv](./web_logs.csv) — dataset
+- [web_logs.pig](./web_logs.pig) — Pig Latin script
+- [web_logs.hql](./web_logs.hql) — HiveQL script
+- [README.md](./README.md) — project documentation
+
+> Screenshots are displayed from the previously uploaded project evidence repository while the new repository is being organized.
