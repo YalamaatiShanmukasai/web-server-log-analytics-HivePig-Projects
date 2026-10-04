@@ -148,119 +148,83 @@ The project execution evidence demonstrates:
 
 ## Project Screenshots
 
-These captions are matched to the actual content visible in each uploaded screenshot.
+The screenshots are arranged in the actual project workflow order. Exact duplicate images and an unrelated screenshot have been removed.
 
-### 1. Hadoop Service Startup and Daemon Verification
+### 1. Hadoop Environment Setup and Daemon Verification
 
-![Hadoop Service Startup and Daemon Verification](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(1).jpeg)
+![Hadoop Environment Setup and Daemon Verification](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(1).jpeg)
 
-### 2. Hive Bucketing Table Creation
-
-![Hive Bucketing Table Creation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(2).jpeg)
-
-### 3. Hadoop Cluster Startup
+### 2. Hadoop Cluster Startup
 
 ![Hadoop Cluster Startup](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM.jpeg)
 
-### 4. Hive HTTP Status Analysis
+### 3. Hive External Table Creation
 
-![Hive HTTP Status Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.55%20PM%20(1).jpeg)
+![Hive External Table Creation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(3).jpeg)
 
-### 5. Hive Partitioned Table Creation
+### 4. Hive Table Data Verification
 
-![Hive Partitioned Table Creation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.55%20PM.jpeg)
+![Hive Table Data Verification](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(2).jpeg)
 
-### 6. Hive URL Request Frequency Analysis
-
-![Hive URL Request Frequency Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.59%20PM%20(1).jpeg)
-
-### 7. Hive HTTP Method Analysis
-
-![Hive HTTP Method Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.59%20PM.jpeg)
-
-### 8. Hive URL Request Count Query
-
-![Hive URL Request Count Query](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(1).jpeg)
-
-### 9. Hive External Table Creation and Data Verification
-
-![Hive External Table Creation and Data Verification](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(2).jpeg)
-
-### 10. Hive External Table Definition
-
-![Hive External Table Definition](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(3).jpeg)
-
-### 11. Hive Total Record Count
+### 5. Hive Total Record Count
 
 ![Hive Total Record Count](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM.jpeg)
 
-### 12. Hive Data Cleaning and Transformation
+### 6. Hive URL Request Analysis
+
+![Hive URL Request Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(1).jpeg)
+
+### 7. Hive URL Frequency Results
+
+![Hive URL Frequency Results](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.59%20PM%20(1).jpeg)
+
+### 8. Hive HTTP Method Analysis
+
+![Hive HTTP Method Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.59%20PM.jpeg)
+
+### 9. Hive HTTP Status Analysis
+
+![Hive HTTP Status Analysis](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.55%20PM%20(1).jpeg)
+
+### 10. Hive Data Cleaning and Transformation
 
 ![Hive Data Cleaning and Transformation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(1).jpeg)
 
-### 13. Pig URL Frequency Results
+### 11. Hive Partitioning
 
-![Pig URL Frequency Results](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(2).jpeg)
+![Hive Partitioning](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.55%20PM.jpeg)
+
+### 12. Hive Bucketing
+
+![Hive Bucketing](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(2).jpeg)
+
+### 13. Pig Script Loading and URL Grouping
+
+![Pig Script Loading and URL Grouping](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM.jpeg)
 
 ### 14. Pig Job Execution and Aggregation
 
 ![Pig Job Execution and Aggregation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(3).jpeg)
 
-### 15. Pig Script Execution and URL Grouping
+### 15. Pig URL Frequency Results
 
-![Pig Script Execution and URL Grouping](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM.jpeg)
+![Pig URL Frequency Results](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.01%20PM%20(2).jpeg)
 
-### 16. MapReduce Java Compilation and JAR Creation
+### 16. Pig MapReduce Processing Output
 
-![MapReduce Java Compilation and JAR Creation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM%20(1).jpeg)
+![Pig MapReduce Processing Output](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM%20(2).jpeg)
 
-### 17. Pig Web Log Processing Job
+### 17. Pig Error Analysis — 404 and 500 Responses
 
-![Pig Web Log Processing Job](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM%20(2).jpeg)
+![Pig Error Analysis — 404 and 500 Responses](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM.jpeg)
 
-### 18. Hadoop and Kafka Environment Files
+### 18. Pig Aggregation Output
 
-![Hadoop and Kafka Environment Files](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM%20(3).jpeg)
+![Pig Aggregation Output](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.09.59%20PM%20(1).jpeg)
 
-### 19. Pig Record Count Output
+### 19. Pig Job Processing Statistics
 
-![Pig Record Count Output](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.02%20PM.jpeg)
-
-### 20. Pig Job Execution with URL Counts
-
-![Pig Job Execution with URL Counts](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM%20(1).jpeg)
-
-### 21. Pig Job Statistics and Record Processing
-
-![Pig Job Statistics and Record Processing](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM%20(2).jpeg)
-
-### 22. Hive Data Cleaning with CREATE TABLE AS SELECT
-
-![Hive Data Cleaning with CREATE TABLE AS SELECT](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM%20(3).jpeg)
-
-### 23. Pig HTTP Error Analysis: 404 and 500
-
-![Pig HTTP Error Analysis: 404 and 500](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.03%20PM.jpeg)
-
-### 24. Hadoop and Big Data Tools Environment Setup
-
-![Hadoop and Big Data Tools Environment Setup](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.04%20PM%20(1).jpeg)
-
-### 25. Pig Total Record Count Output
-
-![Pig Total Record Count Output](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.04%20PM%20(2).jpeg)
-
-### 26. Pig URL Frequency Analysis Results
-
-![Pig URL Frequency Analysis Results](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.04%20PM.jpeg)
-
-### 27. Pig HTTP Error Analysis: 404 and 500
-
-![Pig HTTP Error Analysis: 404 and 500](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.05%20PM.jpeg)
-
-### 28. Pig Job Execution and Input Processing
-
-![Pig Job Execution and Input Processing](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.06%20PM.jpeg)
+![Pig Job Processing Statistics](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-project/main/WhatsApp%20Image%202026-10-04%20at%208.10.00%20PM%20(3).jpeg)
 
 ## Source Files
 
