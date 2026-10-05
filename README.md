@@ -164,7 +164,7 @@ The screenshots are arranged in project workflow order. Exact duplicate screensh
 
 ### 4. Pig Job Execution and Aggregation
 
-![Pig Job Execution and Aggregation](https://raw.githubusercontent.com/YalamaatiShanmukaSai/web-server-log-analytics-projects/main/WhatsApp%20Image%202026-10-04%20at%208.10.06%20PM.jpeg?v=20261005)
+![Pig Job Execution and Aggregation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-projects/main/WhatsApp%20Image%202026-10-04%20at%208.10.06%20PM.jpeg?v=20261005)
 
 ### 5. Pig URL Frequency Results
 
