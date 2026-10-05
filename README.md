@@ -148,8 +148,6 @@ The project execution evidence demonstrates:
 
 ## Project Screenshots
 
-The screenshots are arranged in project workflow order. Exact duplicate screenshots and the unrelated Waste IoT screenshot have been removed.
-
 ### 1. Hadoop Environment Setup and Daemon Verification
 
 ![Hadoop Environment Setup and Daemon Verification](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-projects/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(1).jpeg)
