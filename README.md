@@ -164,7 +164,7 @@ The screenshots are arranged in project workflow order. Exact duplicate screensh
 
 ### 4. Pig Job Execution and Aggregation
 
-![Pig Job Execution and Aggregation](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-projects/main/WhatsApp%20Image%202026-10-04%20at%208.10.06%20PM.jpeg)
+![Pig Job Execution and Aggregation](https://raw.githubusercontent.com/YalamaatiShanmukaSai/web-server-log-analytics-projects/main/WhatsApp%20Image%202026-10-04%20at%208.10.06%20PM.jpeg?v=20261005)
 
 ### 5. Pig URL Frequency Results
 
@@ -217,10 +217,6 @@ The screenshots are arranged in project workflow order. Exact duplicate screensh
 ### 17. Hive Bucketing
 
 ![Hive Bucketing](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-projects/main/WhatsApp%20Image%202026-10-04%20at%208.09.54%20PM%20(2).jpeg)
-
-### 18. Pig Input Processing and Job Statistics
-
-![Pig Input Processing and Job Statistics](https://raw.githubusercontent.com/YalamaatiShanmukasai/web-server-log-analytics-projects/main/WhatsApp%20Image%202026-10-04%20at%208.10.06%20PM.jpeg)
 
 ## Source Files
 
